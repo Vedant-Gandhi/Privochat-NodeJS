@@ -1,0 +1,22 @@
+.LeftBar {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  word-wrap: break-word;
+
+  display: grid;
+  grid-template-rows: 8% 92%;
+  background-color: #1a1a1a;
+}
+.ProfileDisplay {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 15px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

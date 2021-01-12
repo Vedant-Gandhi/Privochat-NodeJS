@@ -1,0 +1,44 @@
+.Chat {
+  box-sizing: content-box;
+  display: flex;
+  background-color: inherit;
+  min-height: 12%;
+  width: 98%;
+  height: fit-content;
+  max-width: 98%;
+  margin-left: 1%;
+  user-select: all;
+  max-height: 20%;
+  word-wrap: break-word;
+  overflow-x: hidden;
+}
+.chatBox {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #13a0ff;
+  border-radius: 5px;
+  margin-top: 1%;
+  width: 45%;
+  padding: 5px;
+  word-wrap: break-word;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.chatBox p:nth-of-type(1) {
+  text-align: end;
+  padding-right: 5px;
+  padding-top: 5px;
+  font-size: 0.8em;
+}
+.Time {
+  align-self: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: #fff;
+  font-size: 0.7em;
+  user-select: none;
+}
+.Sent {
+  flex-direction: row-reverse;
+}

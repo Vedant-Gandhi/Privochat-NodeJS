@@ -1,0 +1,5 @@
+Code 100 Error code for sucess
+Code 221->User already exists
+Code 500 ->Internal server error
+Code 114->Unable to create room
+Code:155->Unable to add the user in the room

@@ -1,0 +1,32 @@
+.MainScreen {
+  background-color: #141414;
+  width: 100vw;
+  height: 100vh;
+}
+.MenuBar {
+  width: 100%;
+  height: 10%;
+  background-color: #1a1a1a;
+  top: 0;
+  z-index: 99999;
+  position: sticky;
+  opacity: 0.8;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Button {
+  border: 0;
+  padding: 5px;
+  width: 10%;
+  height: 60%;
+  outline-width: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.1em;
+  background-color: #13a0ff;
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -1,0 +1,52 @@
+.LeftTitleBar {
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a !important;
+
+  border-bottom-style: solid;
+  border-bottom-width: 0.2px;
+  border-bottom-color: #2f2f2f;
+
+  box-sizing: border-box;
+
+  padding: 5px;
+
+  display: flex;
+  align-items: center;
+
+  color: #f3f2f2;
+}
+.LeftTitleBar div {
+  flex: 1;
+}
+.LeftTitleBar div:nth-of-type(2) {
+  flex: 5 !important;
+  text-align: center;
+}
+.Image {
+  min-width: 55px;
+  min-height: 55px;
+  max-width: 55px;
+  max-height: 55px;
+  outline-width: 0;
+  user-select: none;
+  border: 0;
+
+  border-radius: 50px;
+
+  box-shadow: 2px 2px 40px 10px #0a0a0a;
+  color: #000;
+  word-wrap: normal;
+
+  overflow: hidden;
+  text-align: center;
+}
+.Error {
+  margin-left: 5%;
+  margin-right: 5%;
+  word-wrap: break-word;
+  color: rgba(251, 30, 30, 0.904);
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-width: 100%;
+}
